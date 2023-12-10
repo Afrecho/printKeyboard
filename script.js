@@ -2,8 +2,8 @@ const divs = document.getElementsByClassName('innerDiv');
 
     function applyStyle1() {
       document.getElementById('myDiv').style.backgroundColor = '#b1b1b1';
-      document.getElementById('myDiv').style.color = 'black';
-      document.getElementsByClassName('marca')[0].style.color = 'black';
+      document.getElementById('myDiv').style.color = '#1D1D1D';
+      document.getElementsByClassName('marca')[0].style.color = '#1D1D1D';
 
       for (let i = 0; i < divs.length; i++) {
         divs[i].style.backgroundColor = '#b1b1b1';
@@ -14,8 +14,8 @@ const divs = document.getElementsByClassName('innerDiv');
 
     function applyStyle2() {
       document.getElementById('myDiv').style.backgroundColor = 'white';
-      document.getElementById('myDiv').style.color = 'black';
-      document.getElementsByClassName('marca')[0].style.color = 'black';
+      document.getElementById('myDiv').style.color = '#1D1D1D';
+      document.getElementsByClassName('marca')[0].style.color = '#1D1D1D';
 
       for (let i = 0; i < divs.length; i++) {
         divs[i].style.backgroundColor = 'white';
@@ -25,7 +25,7 @@ const divs = document.getElementsByClassName('innerDiv');
     }
 
     function applyStyle3() {
-      document.getElementById('myDiv').style.backgroundColor = 'black';
+      document.getElementById('myDiv').style.backgroundColor = '#1D1D1D';
       document.getElementById('myDiv').style.color = 'white';
       document.getElementsByClassName('marca')[0].style.color = 'white';
     

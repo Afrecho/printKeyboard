@@ -6,8 +6,19 @@
 
 body {
   background-color: #ede6db;
+  max-height: 100vh;
+  min-width: 100vw;
   /* Resto de estilos... */
 }
+
+#all-content{
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 92%;
+  background-color: none;
+}
+
 
 .key {
   position: relative;
@@ -90,24 +101,26 @@ body {
 
 
 
+/*
+background-color: #4c837a;  */
 
-
-/*   rgba(76, 131, 122);  */
 /*nav elementos*/
 nav {
+  
   position: fixed;
+  overflow: hidden;
   top: 0;
   left: 0;
   height: 101px;
   width: 100%;
   border: 0.5px solid grey;
   background-color: rgba(4, 37, 58);
-  /* Opcional: Agrega un color de fondo si lo deseas */
+  
   z-index: 999;
-  /* Asegura que el nav estÃŠ por encima de otros elementos */
+
   display: flex;
   padding: 0 0px;
-  /* Ajusta el espacio interno segÃēn tus necesidades */
+
 }
 
 .logosite {
@@ -134,15 +147,23 @@ nav {
 
 section {
   top: 10px;
+  bottom: 10px;
   left: 10px;
-  background-color: bisque;
-  padding: 3px;
+  overflow: hidden;
+  background-color: #4c837a;
+  box-sizing: border-box;
+  padding: 13px;
   position: absolute;
+  color: #ede6db;
   width: 30%;
-  height: auto;
-  font-size: 14px;
+  height: calc(100% - 20px);
+  font-size: 15.5px;
   font-style: italic;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /*border: .5px solid #ede6db;*/
+  
+  box-shadow: -1px 1px #ede6db;
+
 }
 
 /*footer*/

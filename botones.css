@@ -1,7 +1,7 @@
 
 /* CONTENEDOR DE CONTENEDORES DE BOTONES */
 #all-btn {
-    margin-top: 10px;
+    margin-top: 20px;
     position: absolute;
     overflow: hidden;
     background-color: none;
@@ -14,7 +14,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
     width: 40%;
     position: absolute;
     background-color: none;
@@ -39,6 +38,7 @@
 .btn-alf {
   margin: 5px;
   flex-basis: calc(30% - 10px);
+  
 }
 
 .btns-alfs .btn-alf:nth-last-child(-n+2) {
@@ -63,7 +63,8 @@
 .btn-style,
 .btn-alf {
   /*TODOS LOS BOTONES*/
-  color: #333;
+  color: #ede6db;
+  background-color: #04253a;
   border: 1px solid grey;
   font-family: Arial, Helvetica, sans-serif;
   transition: background-color 0.3s ease;
@@ -87,11 +88,17 @@
   margin-bottom: 5px;
 }
 
+
+
+.btn-alf:hover,
 .btn-style:hover {
-  background-color: rgba(0, 0, 0, 0.733);
-  /* Ajusta el color de fondo al pasar el cursor por encima */
-  color: white;
+    background-color: #4c837a;
+    color: white;
+    box-shadow: 0 2px 4px rgb(4, 37, 57, .8);
+    transition: box-shadow 0.3s ease;
 }
+
+
 
 .btn-style:active {
   background-color: rgb(0, 0, 0);
@@ -107,11 +114,7 @@
 
 
 
-.btn-alf:hover {
-  background-color: rgba(0, 0, 0, 0.733);
-  /* Ajusta el color de fondo al pasar el cursor por encima */
-  color: white;
-}
+
 
 .btn-alf:active {
   background-color: rgb(0, 0, 0);
