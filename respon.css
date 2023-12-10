@@ -1,0 +1,84 @@
+/* Estilos generales */
+
+/* Estilos para pantallas grandes */
+@media screen and (min-width: 1200px) {
+    /* Estilos para tablets y pantallas grandes */
+    /* Asegúrate de ajustar los estilos según tus necesidades */
+    .logo,
+    .donation-button,
+    .text {
+      background-color: red;
+      color: white;
+    }
+  
+    .keyboard {
+      background-color: blue;
+      color: white;
+    }
+  
+    .small-button {
+      background-color: green;
+      color: white;
+    }
+  }
+  
+  /* Estilos para tablets en modo vertical */
+  @media screen and (max-width: 1199px) {
+    /* Estilos para tablets en modo vertical */
+    /* Asegúrate de ajustar los estilos según tus necesidades */
+    .logo {
+      background-color: orange;
+      color: white;
+    }
+  
+    .text {
+      background-color: yellow;
+      color: black;
+    }
+  
+    .donation-button {
+      background-color: purple;
+      color: white;
+    }
+  
+    .keyboard {
+      background-color: pink;
+      color: white;
+    }
+  
+    .small-button {
+      background-color: teal;
+      color: white;
+    }
+  }
+  
+  /* Estilos para dispositivos móviles */
+  @media screen and (max-width: 767px) {
+    /* Estilos para dispositivos móviles */
+    /* Asegúrate de ajustar los estilos según tus necesidades */
+    .logo {
+      background-color: gray;
+      color: white;
+    }
+  
+    .text {
+      background-color: lightblue;
+      color: black;
+    }
+  
+    .donation-button {
+      background-color: darkgreen;
+      color: white;
+    }
+  
+    .keyboard {
+      background-color: brown;
+      color: white;
+    }
+  
+    .small-button {
+      background-color: magenta;
+      color: white;
+    }
+  }
+  

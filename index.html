@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="estilokeys.css">
+  <link rel="stylesheet" href="botones.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link rel="icon" href="logoicon.png" type="image/png">
+  <meta name="description" content="Stickers of different alphabets to print and stick on your keyboard. A resource for language learners and people who need a specific keyboard layout.">
+  <meta name="description" lang="es" content="Pegatinas de diferentes alfabetos para imprimir y pegar en tu teclado. Un recurso para estudiantes de idiomas y personas que necesitan un diseño de teclado específico.">
+  <meta name="description" lang="fr" content="Stickers de différents alphabets à imprimer et coller sur votre clavier. Une ressource pour les apprenants en langues et les personnes ayant besoin d'une disposition de clavier spécifique.">
+  <meta name="description" lang="zh-CN" content="不同字母表的贴纸，可打印并粘贴到您的键盘上。这是语言学习者和需要特定键盘布局的人的资源。">
+  <meta name="description" lang="ko" content="키보드에 인쇄하고 붙일 수 있는 다양한 알파벳 스티커입니다. 언어 학습자와 특정한 키보드 레이아웃이 필요한 사람들을 위한 자원입니다.">
+  <meta name="description" lang="ru" content="Наклейки с разными алфавитами для печати и наклеивания на клавиатуру. Ресурс для изучающих язык и людей, которым необходима определенная раскладка клавиатуры.">
+  <meta name="keywords" content="stickers, alphabets, keyboard, language, resources, print, learners">
+  <meta name="keywords" lang="es" content="pegatinas, alfabetos, teclado, idioma, recursos, imprimir, estudiantes">
+  <meta name="keywords" lang="fr" content="autocollants, alphabets, clavier, langues, ressources, imprimer, apprenants">
+  <meta name="keywords" lang="zh-CN" content="贴纸, 字母表, 键盘, 语言, 资源, 打印, 学习者">
+  <meta name="keywords" lang="ko" content="스티커, 알파벳, 키보드, 언어, 자원, 인쇄, 학습자">
+  <meta name="keywords" lang="ru" content="наклейки, алфавиты, клавиатура, язык, ресурсы, печать, учащиеся">
+  <meta name="author" content="print your keyboard">
+  
+
+   <title>PRINT YOUR KEYBOARD</title> 
+  <style>
+
+#container {
+  margin-top: 120px;
+  width: 86%;
+  margin-left: 7%;
+  height: auto;
+  overflow: hidden;
+  background-color: #b1b1b1;
+  position: relative;
+  margin-bottom: 20px;
+  padding: 0;
+  border: .5px solid rgba(54, 54, 53, 0.242);
+  border-style: ridge;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+#myDiv {
+  width: 21cm;
+  height: 250px;
+  background-color: #b1b1b100;
+  /*margin: 0 auto; /* Centrar horizontalmente */
+  width: 100%;
+  height: 100%;
+  margin: 0px 0% ;
+  overflow: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative; /* Añadido position relative para que el margin-top sea relativo a este contenedor */
+}
+
+.marca {
+  width: 70%; /* Ocupa el 70% del ancho del contenedor */
+  margin: auto 15%; /* Margen de 15% en los lados izquierdo y derecho */
+  height: 15mm;
+  display: flex;
+  justify-content: center;
+  font-size: 1.3em;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 2px; /* Espacio entre la marca y las teclas */
+  font-weight: bold;
+  border: 1px solid #d8d8d8;
+  
+}
+
+    .innerDiv {
+        position: relative;
+    height: 15mm;
+    width: 15mm;
+    border-radius: 7px;
+    background-color: #b1b1b100;
+   
+    margin: 5px;
+    font-size: 1.9em;
+    text-align: left; /* alinea el texto a la izquierda */
+    padding: 8px; /* agrega un margen interno de 5px */
+    padding-left: 21px;
+    box-sizing: border-box; /* incluye el padding en el ancho y alto */
+
+    font-weight: normal;
+    
+    border: 1px solid #d8d8d8; /* Establece el color del borde */
+    
+    }
+
+    .style3 .key {
+      border-color: white;
+    }
+
+
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/google-translate-api-browser@1.0.0/dist/google-translate-api-browser.js"></script>
+
+  <script src="script.js"></script>
+  <script src="azer-fr.js"></script>
+  <script src="hang-ko.js"></script>
+  <script src="qwer-gr.js"></script>
+  <script src="ciri-ru.js"></script>
+  <script src="chine-da.js"></script>
+  <script src="qwerty-us.js"></script>
+</head>
+<body onload="azertyContent()">
+    <nav>
+        <section>
+            
+                <p>"Welcome! Customize your keyboards and help language learners by printing stickers. If you'd like to support us, we gratefully accept donations."</p>
+        </section>
+        <img class="logosite" src="logo.JPG" alt="">
+        
+        <a href="javascript:void(0);" onclick="openPopup();">
+          <img class="logopaypal" src="paypallogo.png" alt="Logo de PayPal">
+        </a>
+      </nav>
+      
+
+  <div id="container">
+    
+        
+    <div id="myDiv">
+        <div class="marca">printyourkeyboard.com</div>
+        <div class="key">²
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">&
+            <h5 class="alt">1</h5>
+        </div>
+        <div class="key">é
+            <h5 class="alt">2</h5>
+            <h6 class="alt2">~</h6>
+        </div>
+        <div class="key">"
+            <h5 class="alt">3</h5>
+            <h6 class="alt2">#</h6>
+        </div>
+        <div class="key">'
+            <h5 class="alt">4</h5>
+            <h6 class="alt2">{</h6>
+        </div>
+        <div class="key">(
+            <h5 class="alt">5</h5>
+            <h6 class="alt2">[</h6>
+        </div>
+        <div class="key">-
+            <h5 class="alt">6</h5>
+            <h6 class="alt2">|</h6>
+        </div>
+        <div class="key">è
+            <h5 class="alt">7</h5>
+            <h6 class="alt2"></h6>
+        </div>
+        <div class="key">_
+            <h5 class="alt">8</h5>
+            <h6 class="alt2">\</h6>
+        </div>
+        <div class="key">ç
+            <h5 class="alt">9</h5>
+            <h6 class="alt2">^</h6>
+        </div>
+        <div class="key">à
+            <h5 class="alt">0</h5>
+            <h6 class="alt2">@</h6>
+        </div>
+        <div class="key">)
+            <h5 class="alt">°</h5>
+            <h6 class="alt2">]</h6>
+        </div>
+        <div class="key">=
+            <h5 class="alt">+</h5>
+            <h6 class="alt2">}</h6>
+        </div>
+        <div class="key">←
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">^
+            <h5 class="alt">¨</h5>
+        </div>
+        <div class="key">$
+            <h5 class="alt">£</h5>
+            <h6 class="alt2">¤</h6>
+        </div>
+        <div class="key">*
+            <h5 class="alt">µ</h5>
+        </div>
+        <div class="key">ù
+            <h5 class="alt">%</h5>
+        </div>
+        <div class="key">!
+            <h5 class="alt">§</h5>
+        </div>
+        <div class="key">:
+            <h5 class="alt">/</h5>
+        </div>
+        <div class="key">;
+            <h5 class="alt">.</h5>
+        </div>
+        <div class="key">,
+            <h5 class="alt">?</h5>
+        </div>
+        <div class="key">E
+            <h5 class="alt2">€</h6>
+        </div>
+        <div class="key">A
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">Z
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">E
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">R
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">T
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">Y
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">U
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">I
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">O
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">P
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">Q
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">S
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">D
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">F
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">G
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">H
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">J
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">K
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">L
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">M
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">W
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">X
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">C
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">V
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">B
+            <h5 class="alt"></h5>
+        </div>
+        <div class="key">N
+            <h5 class="alt"></h5>
+        </div>
+        
+        
+      </div>
+    
+  </div>
+  <div id="all-btn">
+  <div class="btns-style">
+    <button class="btn-style" onclick="applyStyle2()">LIGHT</button>
+    <button class="btn-style" onclick="applyStyle1()">GRAY</button>
+    <button class="btn-style" onclick="applyStyle3()">DARK</button>
+    <button class="btn-style" onclick="exportToPDF()">Export to PDF</button>
+</div>
+<div class="btns-alfs">
+    <button class="btn-alf" id="azertyFr" onclick="azertyContent()">AZERTY FR</button>
+    <button class="btn-alf" id="hangulKr" onclick="hangulContent()">한글 키보드</button>
+    <button class="btn-alf" id="qwertzGe" onclick="qwertzContent()">QWERTZ</button>
+    <button class="btn-alf" id="ciriliRu" onclick="ciriliContent()">Русская клавиатура</button>
+    <button class="btn-alf" id="chineseda" onclick="chineseContent()">中文键盘</button>
+    <button class="btn-alf" id="qwertyUs" onclick="qwertyUsContent()">QWERTY US</button>
+  </div>
+</div>
+
+
+  <footer>
+    <div class="cont-foot">
+      <p>© <span id="year"></span> PrintYourKeyboard. All rights reserved. | E-mail: <a href="mailto:printyourkeyboard@gmail.com">printyourkeyboard@gmail.com</a></p>
+    </div>
+  </footer>
+
+<script>
+
+const button = document.getElementById('myDiv');
+  const div = document.getElementById('myDiv');
+//pop up paypal
+  function openPopup() {
+      window.open("https://www.paypal.com/donate/?business=printyourkeyboard%40gmail.com&item_name=Thanks+to+your+donations,+we+can+continue+with+the+project+and+provide+free+resources+for+language+learners.&currency_code=USD", "popup", "width=400, height=550, scrollbars=yes");
+    }
+
+    //mostrar año actual
+
+    var yearElement = document.getElementById('year');
+    var currentYear = new Date().getFullYear();
+    yearElement.textContent = currentYear;
+
+  // azerty frances
+  
+
+  // boton azerty onclick
+//  button.addEventListener('click', azertyContent);
+ // button.addEventListener('click', hangulContent);
+//  button.addEventListener('click', qwertzContent);
+ // button.addEventListener('click', ciriliContent);
+
+</script>
+
+
+
+
+</body>
+</html>

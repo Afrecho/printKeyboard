@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #ede6db;
+  /* Resto de estilos... */
+}
+
+.key {
+  position: relative;
+  height: 14.1mm;
+  width: 14.1mm;
+  border-radius: px;
+  /*background-color: rgb(255, 255, 255);*/
+  /* color: rgb(0, 0, 0);*/
+  margin: 0px;
+  font-size: 1.9em;
+  text-align: left;
+  padding: 8px;
+  /* agrega un margen interno de 5px */
+  padding-left: 10px;
+  box-sizing: border-box;
+  /* incluye el padding en el ancho y alto */
+  font-weight: normal;
+  border: 0.6px solid #d8d8d8;
+  /* Establece el color del borde */
+  display: flex;
+  justify-content: center;
+}
+
+.innerDiv {
+  position: relative;
+  height: 15mm;
+  width: 15mm;
+  border-radius: 7px;
+  background-color: #b1b1b1;
+  margin: 5px;
+  font-size: 1.9em;
+  text-align: left;
+  padding: 8px;
+  /* agrega un margen interno de 5px */
+  padding-left: 21px;
+  box-sizing: border-box;
+  /* incluye el padding en el ancho y alto */
+  font-weight: normal;
+  border: 1px solid #d8d8d8;
+  /* Establece el color del borde */
+}
+
+.alt {
+  position: absolute;
+  width: 18.5px;
+  height: 18.5px;
+  font-size: 0.52em;
+  /* color: black;*/
+  text-align: left;
+  padding-left: 3px;
+  font-weight: normal;
+}
+
+.alt2 {
+  position: absolute;
+  width: 18.5px;
+  height: 18.5px;
+  font-size: 0.6em;
+  /*color: black;*/
+  text-align: right;
+  padding-right: 2.4px;
+  z-index: 2;
+  font-weight: normal;
+}
+
+.key .alt {
+  top: 1px;
+  left: 4px;
+  /* Mueve el cuadrado 20px hacia la derecha */
+}
+
+.key .alt2 {
+  bottom: 7px;
+  right: 4px;
+  /* Mueve el cuadrado 20px hacia la derecha */
+}
+
+
+
+
+
+
+
+
+/*   rgba(76, 131, 122);  */
+/*nav elementos*/
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 101px;
+  width: 100%;
+  border: 0.5px solid grey;
+  background-color: rgba(4, 37, 58);
+  /* Opcional: Agrega un color de fondo si lo deseas */
+  z-index: 999;
+  /* Asegura que el nav estÃŠ por encima de otros elementos */
+  display: flex;
+  padding: 0 0px;
+  /* Ajusta el espacio interno segÃēn tus necesidades */
+}
+
+.logosite {
+  min-width: auto;
+  height: auto;
+  margin-left: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.logopaypal {
+  position: absolute;
+  right: 10px;
+  width: 180px;
+  height: auto;
+  padding: 16px 26px;
+}
+
+.logopaypal a {
+  display: block;
+}
+
+section {
+  top: 10px;
+  left: 10px;
+  background-color: bisque;
+  padding: 3px;
+  position: absolute;
+  width: 30%;
+  height: auto;
+  font-size: 14px;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*footer*/
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 30px 0 15px 0;
+  text-align: center;
+}
+
+.cont-foot {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+footer p {
+  bottom: 20px;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+/*MENSAJE FINAL*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.keyboard {
+  width: 600px;
+  height: 300px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+
+.keyboard:first-child {
+  margin-top: 0;
+}
+
+.keyboard-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.keyboard-button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: #ccc;
+  color: #333;
+  border: none;
+  cursor: pointer;
+}
+
+.keyboard-button:hover {
+  background-color: #999;
+  color: #fff;
+}
+
+#export-button {
+  margin-top: 20px;
+}

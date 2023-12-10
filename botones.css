@@ -1,0 +1,119 @@
+
+/* CONTENEDOR DE CONTENEDORES DE BOTONES */
+#all-btn {
+    margin-top: 10px;
+    position: absolute;
+    overflow: hidden;
+    background-color: none;
+    width: 100%;
+    height: 25%;
+  }
+
+  .btns-alfs {/*DIV BOTONES IDIOMA*/
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    width: 40%;
+    position: absolute;
+    background-color: none;
+    margin-top: 2px;
+    margin-right: 7%;
+    padding: 5px 5px 5px 10px;
+    right: 0;
+    box-sizing: border-box;
+  }
+
+
+
+
+/*Botones de estilo*/
+.btns-alfs,
+.btns-style {
+  height: 70%;
+}
+
+
+
+.btn-alf {
+  margin: 5px;
+  flex-basis: calc(30% - 10px);
+}
+
+.btns-alfs .btn-alf:nth-last-child(-n+2) {
+  /*flex-basis: calc(50% - 10px);*/
+}
+
+.btns-style {
+  width: 40%;
+  position: absolute;
+  background-color: #ffffff00;
+  margin-top: 2px;
+  margin-left: 7%;
+  padding: 5px;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+
+.btn-style,
+.btn-alf {
+  /*TODOS LOS BOTONES*/
+  color: #333;
+  border: 1px solid grey;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.btn-style {
+  /*botones color export*/
+  font-size: 0.9em;
+  padding: 10px 20px;
+  /* Aumenta el espacio interno */
+}
+
+.btn-alf {
+  /*botones idiomas*/
+  font-size: 0.8em;
+  padding: 2px 10px;
+  /* Aumenta el espacio interno */
+  margin-bottom: 5px;
+}
+
+.btn-style:hover {
+  background-color: rgba(0, 0, 0, 0.733);
+  /* Ajusta el color de fondo al pasar el cursor por encima */
+  color: white;
+}
+
+.btn-style:active {
+  background-color: rgb(0, 0, 0);
+  color: beige;
+}
+
+.btns-alfs,
+.btns-style {
+  border-radius: 15px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  border: 1px ridge gray;
+}
+
+
+
+.btn-alf:hover {
+  background-color: rgba(0, 0, 0, 0.733);
+  /* Ajusta el color de fondo al pasar el cursor por encima */
+  color: white;
+}
+
+.btn-alf:active {
+  background-color: rgb(0, 0, 0);
+  color: beige;
+}
