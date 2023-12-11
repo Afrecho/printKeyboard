@@ -14,7 +14,7 @@ section{
   nav {
     position: absolute;
     overflow: hidden;
-    height: 25%;
+    height: 20%;
     
     display: flex;
     flex-direction: column;
@@ -22,56 +22,61 @@ section{
   }
 
   #all-content{
-    min-height: 136vh;
+    min-height: 120vh;
     position: relative;
   }
 
   section {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0);
-    top: 1%; /* Set to 50% for centering */
-    left: 1%; /* Set to 50% for centering */
-     /* Adjust for centering */
+    background-color: rgb(165, 233, 0,0);
+    top: 4%; 
+    left: 1%; 
+    
     font-size: 0.85em;
-    width: 19%; 
-    height: 98%;
-    max-height: 99%;
+    width: 23%; 
+    height: 92%;
+    max-height: 98%;
     padding: 0;
     box-shadow: -1px 1px #ede6db00;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
 }
 
 
   section p{
-    font-size: 95%;
-    padding: 11px 10px 15px;
+    max-width: 76%;
+    font-size: 80%;
+    padding: 10px 10px 10px;
     background-color:  #4c837a;
   }
 
   .logosite {
     position: absolute;
-    width: 50%;
-    height: auto;
-    left: 25%;
-    top: 1%;
+    max-width: 60%;
+    height: 91%;
+    left: 20%;
+    top: 5%;
     transform: translateX(-50%);
 
   }
 
   .logopaypal {
     position: absolute;
-    top: 1%;
-    right: -5px;
-    width: 15%;
+    top: -5%;
+    right: -10px;
+    width: 12%;
     transform: translateY(50%);
   }
 
   #container{
-    top: 60px;
+    top: 20px;
   }
 
   #all-btn{
-    height: 30%;
-    margin-top: 8%;
+    height: 32%;
+    margin-top: 2%;
     padding-top: 20px;
     padding-bottom: 30px;
   }
@@ -84,12 +89,12 @@ section{
 .btn-alf {
   margin: 2px;
   flex-basis: calc(80% - 10px);
-  padding: 5px 10px;
+  padding: 5.5px 10px;
 }
 
 .btn-style{
   flex-basis: calc(80% - 10px);
-  padding: 8% 1%;
+  padding: 6% 1%;
 }
 
 .btns-alfs,
@@ -103,9 +108,115 @@ section{
 
 @media (max-width: 600px) {
 
-  nav{
-    background-color: rgb(255, 0, 13);
+
+  nav {
+    position: absolute;
+    overflow: hidden;
+    height: 400px;
+    background-color: #04253a;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
   }
+  
+
+  .logosite {
+    position: absolute;
+    width: 104%;
+    height: 160px;
+    left: 0;
+    top: 0;
+    transform: translateX(-34%);
+
+  }
+  
+  section {
+    display: block;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    max-height: 170px;
+    padding: 10px 65px;
+    text-align: center;
+    border: none;
+    box-shadow: none;
+    background-color: rgba(153, 205, 50, 0);
+}
+
+  section p{
+    font-size: 1.4em;
+    height: auto;
+    padding: 10px 5px;
+    background-color: rgba(204, 121, 13, 0.233);
+  }
+
+  .logopaypal{
+    display: block;
+    position: relative;
+    top: 190%;
+
+  }
+  
+  #container{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 80%;
+    
+  }
+
+
+ 
+  
+  #all-content{
+    min-height: 115vh;
+    position: relative;
+  }
+
+  
+  #all-btn{
+    height: 44%;
+    margin-top: 2%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+  }
+
+.btns-style{
+  display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-alf,
+.btn-style{
+  font-size: 1.2em;
+}
+  
+.btn-alf {
+  margin: 2px;
+  flex-basis: calc(95% - 10px);
+  padding: 5px 10px;
+}
+
+.btn-style{
+  flex-basis: calc(95% - 10px);
+  padding: 15% 1%;
+}
+
+.btns-alfs,
+.btns-style{
+  height: 90%;
+  width: 47%;
+  margin-right: .5%;
+  margin-left: .5%;
+  padding: 5px 0px;
+}
+
+
+
+
 
 }
 

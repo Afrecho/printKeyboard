@@ -1,0 +1,74 @@
+
+#container {
+    margin-top: 140px;
+    width: 86%;
+    margin-left: 7%;
+    height: auto;
+    overflow: hidden;
+    background-color: #b1b1b1;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 0;
+    border: .5px solid rgba(54, 54, 53, 0.242);
+    border-style: ridge;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  
+  }
+  
+  
+  
+  #myDiv {
+    width: 21cm;
+    height: 250px;
+    background-color: #b1b1b100;
+    /*margin: 0 auto; /* Centrar horizontalmente */
+    width: 100%;
+    height: 100%;
+    margin: 0px 0% ;
+    overflow: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative; /* Añadido position relative para que el margin-top sea relativo a este contenedor */
+  }
+  
+  .marca {
+    width: 70%; /* Ocupa el 70% del ancho del contenedor */
+    margin: auto 15%; /* Margen de 15% en los lados izquierdo y derecho */
+    height: 15mm;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px; /* Espacio entre la marca y las teclas */
+    font-weight: bold;
+    border: 1px solid #d8d8d8;
+    
+  }
+  
+      .innerDiv {
+          position: relative;
+      height: 15mm;
+      width: 15mm;
+      border-radius: 7px;
+      background-color: #b1b1b100;
+     
+      margin: 5px;
+      font-size: 1.9em;
+      text-align: left; /* alinea el texto a la izquierda */
+      padding: 8px; /* agrega un margen interno de 5px */
+      padding-left: 21px;
+      box-sizing: border-box; /* incluye el padding en el ancho y alto */
+  
+      font-weight: normal;
+      
+      border: 1px solid #d8d8d8; /* Establece el color del borde */
+      
+      }
+  
+      .style3 .key {
+        border-color: white;
+      }
