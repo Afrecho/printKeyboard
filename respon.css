@@ -1,84 +1,93 @@
-/* Estilos generales */
+@media (min-width: 960px) and (max-width: 1279px){
 
-/* Estilos para pantallas grandes */
-@media screen and (min-width: 1200px) {
-    /* Estilos para tablets y pantallas grandes */
-    /* Asegúrate de ajustar los estilos según tus necesidades */
-    .logo,
-    .donation-button,
-    .text {
-      background-color: red;
-      color: white;
-    }
-  
-    .keyboard {
-      background-color: blue;
-      color: white;
-    }
-  
-    .small-button {
-      background-color: green;
-      color: white;
-    }
+nav{
+  background-color: blueviolet;
+}
+
+section{
+  font-size: 13.7px;
+}
+}
+
+
+@media (min-width: 601px) and (max-width: 959px) { /*TABLET*/
+  nav {
+    overflow: hidden;
+    height: 35%;
+    flex-direction: column;
   }
-  
-  /* Estilos para tablets en modo vertical */
-  @media screen and (max-width: 1199px) {
-    /* Estilos para tablets en modo vertical */
-    /* Asegúrate de ajustar los estilos según tus necesidades */
-    .logo {
-      background-color: orange;
-      color: white;
-    }
-  
-    .text {
-      background-color: yellow;
-      color: black;
-    }
-  
-    .donation-button {
-      background-color: purple;
-      color: white;
-    }
-  
-    .keyboard {
-      background-color: pink;
-      color: white;
-    }
-  
-    .small-button {
-      background-color: teal;
-      color: white;
-    }
+
+  #all-content{
+    min-height: 136vh;
   }
-  
-  /* Estilos para dispositivos móviles */
-  @media screen and (max-width: 767px) {
-    /* Estilos para dispositivos móviles */
-    /* Asegúrate de ajustar los estilos según tus necesidades */
-    .logo {
-      background-color: gray;
-      color: white;
-    }
-  
-    .text {
-      background-color: lightblue;
-      color: black;
-    }
-  
-    .donation-button {
-      background-color: darkgreen;
-      color: white;
-    }
-  
-    .keyboard {
-      background-color: brown;
-      color: white;
-    }
-  
-    .small-button {
-      background-color: magenta;
-      color: white;
-    }
+
+  section {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    top: 69%;
+    font-size: .85em;
+    width: 70%;
+    left: 15%;
+    height: auto;
+    max-height: 73%;
+    padding: 0;
+    box-shadow: -1px 1px #ede6db00;
   }
+
+  section p{
+    font-size: 1.05em;
+    padding: 11px 10px 15px;
+    background-color:  #4c837a;
+  }
+
+  .logosite {
+    position: absolute;
+    width: 70%;
+    height: auto;
+    left: 15%;
+    top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .logopaypal {
+    position: absolute;
+    top: 65%;
+    left: -5px;
+    width: 20%;
+  }
+
+  #container{
+    top: 110px;
+  }
+
+  #all-btn{
+    margin-top: 13%;
+    
+  }
+
   
+.btn-alf {
+  margin: 2px;
+  flex-basis: calc(80% - 10px);
+  padding: 5px 10px;
+}
+
+}
+
+
+
+@media (max-width: 600px) {
+
+  nav{
+    background-color: rgb(255, 0, 13);
+  }
+
+}
+
+@media (min-width: 1025px){
+
+
+}
+
+
