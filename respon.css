@@ -8,6 +8,10 @@ nav{
   font-size: 13.7px;
 }
 
+#mensaje p{
+
+}
+
 .logopaypal {
   position: absolute;
   width: 110px;
@@ -36,22 +40,24 @@ nav{
 #mensaje {
   flex: 1;
   background-color: #ede6db;
-  height: 0px;
+  padding: 0 50px;
 }
 
 #mensaje p{
-  width: 75%;
-  font-size: 80%;
-  padding: 10px 10px 10px;
-  background-color:  #4c837a;
+  padding: 10px 0px;
+  width: 70%;
+  font-size: .75m;
+  font-style: italic; 
+  color: #04253a;
+  
 }
 
 .logopaypal {
   position: absolute;
   width: 120px;
   height: auto;
-  top: 15px;
-  right: 80px;
+  top: 7px;
+  right: 90px;
 }
 
 #cajalogo {
@@ -76,16 +82,6 @@ nav{
 
 
 
-
-
-  .logosite {
-
-
-  }
-
-  .logopaypal {
-
-  }
 
   #container{
     top: 60px;
@@ -139,65 +135,65 @@ nav{
   body {
     
     height: 240vh;
-    
-    
+ 
   }
 
-  nav {
+  nav{
     position: absolute;
-    overflow: hidden;
-    height: 400px;
-    background-color: #04253a;
-    width: 100%;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
+    height: 190px;
   }
-  
 
-  .logosite {
-    position: absolute;
-    width: 104%;
-    height: 160px;
-    left: 0;
-    top: 0;
-    transform: translateX(-34%);
 
-  }
+#mensaje {
+  flex: 1;
   
-  #mensaje {
-    display: block;
-    top: 41%;
-    left: 0;
-    width: 100%;
-    max-height: 170px;
-    padding: 10px 65px;
-    text-align: center;
-    border: none;
-    box-shadow: none;
-    background-color: rgba(153, 205, 50, 0);
 }
 
 #mensaje p{
-    font-size: 1.4em;
+  width: 75%;
+  font-size: .8em;
+
+  font-style: italic;
+ 
+}
+
+.logopaypal {
+  position: absolute;
+  width: 90px;
+  height: auto;
+  top: 8px;
+  right: 70px;
+}
+
+#cajalogo {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+#caja3 {
+  display: none;
+  flex: 2;
+  background-color: chartreuse;
+}
+
+
+  .logopaypal {
+    position: absolute;
+    width: 120px;
     height: auto;
-    padding: 10px 5px;
-    background-color: #4c837a;
+    bottom: 5px;
+    transform: translateX(50%);
   }
-
-  .logopaypal{
-    display: block;
-    position: relative;
-    top: 200%;
-
-  }
+  
   
   #container{
     width: 100%;
     margin-left: 0;
-    margin-top: 100%;
+    margin-top: 39%;
     
   }
 

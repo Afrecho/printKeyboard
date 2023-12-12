@@ -118,13 +118,13 @@ nav {
 
 #mensaje {
   flex: 1;
-  background-color: #ede6db;
   padding: 10px;
 }
 
 #mensaje p{
-  background-color: rgba(95, 158, 160, 0.068);
   font-size: .95em;
+  font-style: italic;
+  color: #ede6db;
 }
 
 #cajalogo {
@@ -132,12 +132,12 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
+  background-color: none;
 }
 
 #caja3 {
   flex: 1;
-  background-color: chartreuse;
+  background-color: none;
 }
 
 
