@@ -117,7 +117,7 @@ nav{
 
 .btn-style{
   flex-basis: calc(80% - 10px);
-  padding: 9% 1%;
+  padding: 7% 1%;
 }
 
 .btns-alfs,
@@ -231,7 +231,7 @@ nav{
 
 .btn-style{
   flex-basis: calc(95% - 10px);
-  padding: 16% 1%;
+  padding: 12% 1%;
 }
 
 .btns-alfs,
@@ -244,9 +244,6 @@ nav{
 }
 
 
-
-
-
 }
 
 @media (min-width: 1025px){
@@ -254,4 +251,15 @@ nav{
 
 }
 
+/*
+@media (hover: none) {
+  .btn-alf:hover,
+  .btn-style:hover {
+    background-color: #04253a;
+    color: #ede6db;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    transition: none;
+  }
+}
 
+*/
