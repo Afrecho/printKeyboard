@@ -119,13 +119,17 @@ nav {
 #mensaje {
   flex: 1;
   padding: 10px;
+ /*background-color: #ede6db;*/
 }
 
-#mensaje p{
+#mensaje p {
   font-size: .95em;
   font-style: italic;
   color: #ede6db;
+  text-align: center;
+  text-shadow: 2px 2px 3px #888888;
 }
+
 
 #cajalogo {
   flex: 3;
@@ -151,7 +155,7 @@ nav {
   width: 120px;
   height: auto;
   bottom: 5px;
-  transform: translateX(50%);
+  transform: translateX(60%);
 }
 
 .logopaypal a {

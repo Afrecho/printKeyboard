@@ -117,7 +117,7 @@ nav{
 
 .btn-style{
   flex-basis: calc(80% - 10px);
-  padding: 6% 1%;
+  padding: 9% 1%;
 }
 
 .btns-alfs,
@@ -147,7 +147,7 @@ nav{
 
 #mensaje {
   flex: 1;
-  
+  background-color: #4c837a;
 }
 
 #mensaje p{
@@ -231,7 +231,7 @@ nav{
 
 .btn-style{
   flex-basis: calc(95% - 10px);
-  padding: 12% 1%;
+  padding: 16% 1%;
 }
 
 .btns-alfs,
