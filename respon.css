@@ -5,25 +5,72 @@ nav{
 }
 
 #mensaje{
-  font-size: 13.7px;
+  
 }
 
 #mensaje p{
-
+  padding-left: 20px;
+  font-size: 13px;
 }
 
 .logopaypal {
   position: absolute;
-  width: 110px;
+  width: 90px;
   height: auto;
   bottom: 5px;
-  transform: translateX(30%);
+  transform: translateX(70%);
 }
 
+.btns-alfs,
+.btns-style {
+  border-radius: 15px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  border: 1px ridge gray;
+  height: 120px;
+  width: 42%;
 }
 
 
-@media (min-width: 601px) and (max-width: 959px) { /*TABLET*/
+.btn-style,
+.btn-alf {
+  /*TODOS LOS BOTONES*/
+  color: #ede6db;
+  background-color: #04253a;
+  border: 1px solid grey;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.btn-style {
+  /*botones color export*/
+  font-size: 0.9em;
+  padding: 12px 20px;
+  /* Aumenta el espacio interno */
+}
+
+.btn-alf {
+  /*botones idiomas*/
+  font-size: 0.8em;
+  padding: 10px 12px;
+  /* Aumenta el espacio interno */
+  margin-bottom: 5px;
+}
+ 
+height: 200px;
+
+
+}
+
+/* ******************************* */
+/* ******************************* */
+/*TABLET HORIZONTAL*/
+/* ******************************* */
+/* ******************************* */
+
+@media (min-width: 601px) and (max-width: 959px) { 
 
   body {
     height: 200vh;
@@ -33,7 +80,7 @@ nav{
   nav{
     position: absolute;
     flex-direction: column;
-    height: 190px;
+    height: 240px;
   }
 
 
@@ -56,8 +103,9 @@ nav{
   position: absolute;
   width: 120px;
   height: auto;
-  top: 7px;
-  right: 90px;
+  top: 30px; 
+  transform: translateY(-50%);
+  right: 40px;
 }
 
 #cajalogo {
@@ -68,6 +116,11 @@ nav{
   height: auto;
 }
 
+
+.logosite {
+  height: 100%;
+  width: auto;
+}
 #caja3 {
   display: none;
   flex: 2;
@@ -76,27 +129,25 @@ nav{
 
 
   #all-content{
-    min-height: 130vh;
+    height: 820px;
     position: relative;
+    
   }
 
-
-
-
   #container{
-    top: 60px;
+    top: 120px;
     width: 100%;
     margin-left: 0;
     
   }
 
-
-
   #all-btn{
-    height: 32%;
-    margin-top: 6%;
+    position: absolute;
+    height: 310px;
+    margin-top: 110px;
     padding-top: 20px;
-    padding-bottom: 30px;
+    margin-bottom: 100px;
+    
   }
 
 .btns-style{
@@ -106,28 +157,36 @@ nav{
   
 .btn-alf,
 .btn-style{
-  font-size: 1.1em;
+  font-size: 1em;
+  border-radius: 50px;
 }
 
 .btn-alf {
-  margin: 2px;
-  flex-basis: calc(80% - 10px);
+  margin: 1px;
+  flex-basis: calc(90% - 10px);
   padding: 5.5px 10px;
 }
 
 .btn-style{
-  flex-basis: calc(80% - 10px);
-  padding: 20px 1%;
+  flex-basis: calc(90% - 10px);
+  padding: 15px 1%;
 }
 
 .btns-alfs,
 .btns-style{
-  height: 90%;
+  margin:10px;
+  width: 47%;
+  height: 290px;
+  padding: 10px 5px;
 }
 
 }
 
-
+/* ******************************* */
+/* ******************************* */
+/*TABLET VERTICAL*/
+/* ******************************* */
+/* ******************************* */
 
 @media (max-width: 600px) {
 
@@ -135,7 +194,6 @@ nav{
   body {
     
     height: 240vh;
- 
   }
 
   nav{
@@ -147,23 +205,23 @@ nav{
 
 #mensaje {
   flex: 1;
-  background-color: #4c837a;
+ /* background-color: #4c837a;*/
+ background-color: #04253a;
 }
 
 #mensaje p{
-  width: 75%;
+  width: 60%;
   font-size: .8em;
-
+  padding-left: 30px;
   font-style: italic;
- 
 }
 
 .logopaypal {
   position: absolute;
-  width: 90px;
+  width: 100px;
   height: auto;
-  top: 8px;
-  right: 70px;
+  top: 15px;
+  right: 90px;
 }
 
 #cajalogo {
@@ -189,6 +247,10 @@ nav{
     transform: translateX(50%);
   }
   
+  .logosite {
+    height: 100%;
+    width: auto;
+  }
   
   #container{
     width: 100%;
@@ -200,16 +262,17 @@ nav{
 
 
   #all-content{
-    min-height: 155vh;
+    height: auto;
     position: relative;
   }
 
   
   #all-btn{
-    height: 44%;
-    margin-top: 2%;
+    height: 380px;
+    margin-top: -10px;
     padding-top: 20px;
     padding-bottom: 30px;
+    
     
   }
 
@@ -220,7 +283,8 @@ nav{
 
 .btn-alf,
 .btn-style{
-  font-size: 1.2em;
+  font-size: 1em;
+  border-radius: 50px;
 }
   
 .btn-alf {
@@ -231,7 +295,7 @@ nav{
 
 .btn-style{
   flex-basis: calc(95% - 10px);
-  padding: 12% 1%;
+  padding: 22px 1%;
 }
 
 .btns-alfs,
@@ -245,13 +309,99 @@ nav{
 
 
 }
+/* ******************************* */
+/* ******************************* */
+/*CELULAR VERTICAL*/
+/* ******************************* */
+/* ******************************* */
+
+@media (max-width: 480px){
+
+  #mensaje{
+    background-color: #04253a;
+  }
+
+  #mensaje p{
+    width: 60%;
+    font-size: .8em;
+    font-style: italic;
+    font-weight: bold;
+    
+  }
+  
+  .logopaypal {
+    position: absolute;
+    width: 90px;
+    height: auto;
+    top: 25px;
+    right: 55px;
+  }
+
+  .logosite {
+    height: auto;
+    width: 100%;
+  }
+
+  #container{
+    margin-top: 54%;
+  }
+
+  
+  #all-btn{
+    height: 350px;
+    margin-top: -20px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    
+  }
+
+  .btns-alfs,
+  .btns-style{
+    height: 280px;
+    width: 47%;
+    margin-right: .5%;
+    margin-left: .5%;
+    padding: 5px 0px;
+  }
+
+.btns-style{
+  display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-alf,
+.btn-style{
+  font-size: .9em;
+  border-radius: 25px;
+}
+  
+.btn-alf {
+  margin: 2px;
+  flex-basis: calc(95% - 10px);
+  padding: 3px 10px;
+}
+
+.btn-style{
+  flex-basis: calc(95% - 10px);
+  padding: 15px 1%;
+}
+
+  #all-content{
+    padding-bottom: 30px;
+    min-height: auto;
+    position: relative;
+    
+  }
+
+}
+
 
 @media (min-width: 1025px){
 
 
 }
 
-/*
+
 @media (hover: none) {
   .btn-alf:hover,
   .btn-style:hover {
@@ -262,4 +412,3 @@ nav{
   }
 }
 
-*/

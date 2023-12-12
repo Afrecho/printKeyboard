@@ -8,6 +8,7 @@ body {
   background-color: #ede6db;
   max-height: 100vh;
   min-width: 100vw;
+  overflow-x: hidden;
   /* Resto de estilos... */
 }
 
@@ -119,15 +120,15 @@ nav {
 #mensaje {
   flex: 1;
   padding: 10px;
- /*background-color: #ede6db;*/
+ 
 }
-
+/*ede6db*/
 #mensaje p {
-  font-size: .95em;
+  font-size: .85em;
   font-style: italic;
   color: #ede6db;
   text-align: center;
-  text-shadow: 2px 2px 3px #888888;
+  padding-left: 40px;
 }
 
 
@@ -146,16 +147,17 @@ nav {
 
 
 .logosite {
-
+  height: 100%;
+  width: auto;
 }
 
 
 .logopaypal {
   position: absolute;
-  width: 120px;
+  width: 100px;
   height: auto;
   bottom: 5px;
-  transform: translateX(60%);
+  transform: translateX(105%);
 }
 
 .logopaypal a {
