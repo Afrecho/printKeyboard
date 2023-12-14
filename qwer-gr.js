@@ -2,7 +2,7 @@ function qwertzContent() {
     var div = document.getElementById('myDiv');
     div.innerHTML = `
       <div id="myDiv">
-        <div class="marca">printyourkeyboard.com</div>
+        <div class="marca">printyourkeyboard@gmail.com</div>
         <div class="key">°
           <h5 class="alt"> </h5>
           <h6 class="alt2"> </h6>

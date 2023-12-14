@@ -3,7 +3,7 @@ function azertyContent() {
   div.innerHTML = `
     
   <div id="myDiv">
-  <div class="marca">printyourkeyboard.com</div>
+  <div class="marca">printyourkeyboard@gmail.com</div>
   <div class="key">²
       <h5 class="alt"></h5>
   </div>
