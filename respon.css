@@ -59,7 +59,7 @@ nav{
   margin-bottom: 5px;
 }
  
-height: 200px;
+
 
 
 }
@@ -93,7 +93,7 @@ height: 200px;
 #mensaje p{
   padding: 10px 0px;
   width: 70%;
-  font-size: .75m;
+  font-size: 1.05em;
   font-style: italic; 
   color: #04253a;
   
@@ -207,11 +207,12 @@ height: 200px;
   flex: 1;
  /* background-color: #4c837a;*/
  background-color: #04253a;
+ padding: 0;
 }
 
 #mensaje p{
   width: 60%;
-  font-size: .8em;
+  font-size: .85em;
   padding-left: 30px;
   font-style: italic;
 }
@@ -319,14 +320,16 @@ height: 200px;
 
   #mensaje{
     background-color: #04253a;
+    padding: 0;
   }
 
   #mensaje p{
-    width: 60%;
-    font-size: .8em;
+    width: 62%;
+    font-size: .85em;
     font-style: italic;
     font-weight: bold;
-    
+    padding-top: 1px 1px 5px 1px;
+    background-color: rgba(212, 146, 46, 0);
   }
   
   .logopaypal {
